@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 import models.User;
 import models.UserResponse;
 import utils.AssertionsHelper;
-import static baseTest.BaseTest.requestSpec;
+import static config.RequestSpec.requestSpec;
 import static io.restassured.RestAssured.given;
 
 public class UserApi {

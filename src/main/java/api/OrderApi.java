@@ -2,8 +2,7 @@ package api;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
-
-import static baseTest.BaseTest.requestSpec;
+import static config.RequestSpec.requestSpec;
 import static io.restassured.RestAssured.given;
 
 public class OrderApi {

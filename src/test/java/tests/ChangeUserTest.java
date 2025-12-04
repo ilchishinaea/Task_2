@@ -16,7 +16,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 import utils.AssertionsHelper;
 import java.util.stream.Stream;
 import static utils.DataGeneratorUsers.*;
-import static utils.DataGeneratorUsers.randomEmail;
 
 public class ChangeUserTest extends BaseTest {
 
